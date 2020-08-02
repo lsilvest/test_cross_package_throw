@@ -1,0 +1,11 @@
+Package: deppackage
+Title: Uses a C++ function that throws
+Version: 0.0.0.9000
+Author: Leonardo Silvestri
+Description: This package is defined in order to test cross packages throws
+License: GPL (>= 2)
+Encoding: UTF-8
+Depends: basepackage
+LinkingTo: basepackage
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
